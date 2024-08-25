@@ -1,0 +1,138 @@
+body {
+    font-family: "Roboto", sans-serif; /* Sets the default font */
+    color: #2b283a; /* Default text color */
+    background: #faf5ff; /* Light purple background color */
+    text-align: center; /* Centers text */
+    margin: 0; /* Removes default margin */
+    font-weight: 100; /* Sets font weight to light */
+    font-size: 20px; /* Default font size */
+    line-height: 1.5; /* Sets line height for better readability */
+}
+
+img{
+    width: 400px; /* Standard width for images */
+}
+
+.container{
+    max-width: 1280px; /* Maximum width of the container */
+    min-width: 430px; /* Minimum width of the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    background: #f3e8ff; /* Light purple background color for container */
+}
+
+.navigation{
+    display: flex; /* Uses flexbox for layout */
+    justify-content: space-between; /* Spaces items evenly */
+    flex-wrap: wrap; /* Allows items to wrap on small screens */
+}
+
+.logo{
+    color: #d0aaff; /* Light purple text color for the logo */
+    font-size: 25px; /* Font size for the logo */
+    font-weight: bold; /* Bold font weight for the logo */
+}
+
+.menu{
+    display: flex; /* Uses flexbox for menu layout */
+    gap: 20px; /* Spaces items in the menu */
+    align-items: center; /* Vertically aligns items */
+    padding-right: 40px; /* Right padding for the menu */
+}
+
+.menu a {
+    text-decoration: none; /* Removes underline from links */
+    color: whitesmoke; /* Text color for links */
+    font-weight: bold; /* Bold font weight for links */
+}
+
+header{
+    padding: 30px; /* Padding around the header */
+    background: #5f29a3; /* Dark purple background color */
+}
+
+header h1 {
+    color: whitesmoke; /* Text color for the main heading */
+    font-size: 56px; /* Font size for the main heading */
+    margin-top: 50px; /* Top margin for the main heading */
+    margin-bottom: 0; /* Removes bottom margin */
+}
+
+header h3 {
+    color: whitesmoke; /* Text color for the subheading */
+    font-size: 30px; /* Font size for the subheading */
+    margin-top: 10px; /* Top margin for the subheading */
+}
+
+section{
+    padding: 30px; /* Padding for sections */
+}
+
+.main-img{
+    width: 75%; /* Width for main images in the NFT sections */
+}
+
+.img-flex {
+    display: flex; /* Uses flexbox for image layout */
+    gap: 50px; /* Space between images */
+    justify-content: center; /* Centers images horizontally */
+    flex-wrap: wrap; /* Allows images to wrap on small screens */
+}
+
+h2{
+    text-align: center; /* Centers headings */
+    padding-bottom: 20px; /* Bottom padding for headings */
+    font-size: 35px; /* Font size for headings */
+}
+
+p {
+    text-align: justify; /* Justifies paragraph text for better alignment */
+}
+
+.section-purple{
+    background: #5f29a3; /* Dark purple background for alternate sections */
+}
+
+.section-purple h2 {
+    color: whitesmoke; /* Text color for headings in purple sections */
+}
+
+.section-purple p {
+    color: whitesmoke; /* Text color for paragraphs in purple sections */
+}
+
+.section-light img{
+    border: 5px solid #5f29a3; /* Border for images in light sections */
+}
+
+
+.btn{
+    display: inline-block; /* Displays button inline but with block properties */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    text-decoration: none; /* Removes underline from button text */
+    font-weight: bold; /* Bold font weight for button text */
+    margin: 10px 0 0 0; /* Top margin for the button */
+}
+
+.btn-dark{
+    background: #5f29a3; /* Dark purple background for dark buttons */
+    color: whitesmoke; /* Text color for dark buttons */
+}
+
+.btn-light{
+    background: #d0aaff; /* Light purple background for light buttons */
+    color: #2b283a; /* Default text color for light buttons */
+}
+
+.about p{
+    text-align: center; /* Centers text in about section */
+    margin-bottom: 0; /* Removes bottom margin */
+}
+
+footer p{
+    padding: 10px; /* Padding inside the footer */
+    text-align: center; /* Centers text in the footer */
+    background: #5f29a3; /* Dark purple background for the footer */
+    color: #f3e8ff; /* Light purple text color for the footer */
+    margin-bottom: 0; /* Removes bottom margin */
+}
